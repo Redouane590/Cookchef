@@ -1,4 +1,5 @@
 import styles from './Content.module.scss'
+import Recipe from './Recipe';
 
 function Content() {
   return (
@@ -6,12 +7,13 @@ function Content() {
       <h1 className='my-30'>Découvez nos nouvelles recettes</h1>
       <div className={`card p-20 ${styles.cardContent}`}>
         <div className={styles.grid}>
-          <div className={styles.elem}>Element</div>
-          <div className={styles.elem}>Element</div>
-          <div className={styles.elem}>Element</div>
-          <div className={styles.elem}>Element</div>
-          <div className={styles.elem}>Element</div>
-          <div className={styles.elem}>Element</div>
+          <Recipe />
+          <Recipe />
+          <Recipe />
+          <Recipe />
+          <Recipe />
+          <Recipe />
+          <Recipe />
         </div>
       </div>
     </div>
