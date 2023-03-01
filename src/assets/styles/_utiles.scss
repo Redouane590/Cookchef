@@ -39,10 +39,16 @@
   margin: 20px;
 }
 
-
+.mb-10 {
+  margin-bottom: 10px;
+}
 .my-30 {
   margin-bottom: 30px;
   margin-top: 30px;
+}
+.my-15 {
+  margin-bottom: 15px;
+  margin-top: 15px;
 }
 
 .container {
@@ -53,4 +59,13 @@
 
 .mr-5 {
   margin-right: 5px;
+}
+
+.calc {
+  position: fixed;
+  top: 0;
+  left: 0;
+  // background-color: aquamarine;
+  width: 100%;
+  height: 100vh;
 }
