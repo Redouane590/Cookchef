@@ -26,11 +26,12 @@ function Header() {
         </button>
       </ul>
     <i onClick={handleClickMenu} className={`fa-solid fa-bars ${styles.bar}`} ></i>
-    {showMenu &&
+    {showMenu && (
       <>
         <div onClick={ () => setShowMenu(false) } className='calc'></div>
         <HeaderMenu/>
-      </>}
+      </>
+    )}
   </header>
   )
 }

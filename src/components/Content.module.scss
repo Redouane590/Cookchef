@@ -30,3 +30,18 @@
   height: 500px;
 
 }
+
+.search {
+  border: 2px solid var(--gray-2);
+  border-radius: 20px;
+  padding: 10px 15px;
+  input {
+    border: none;
+    outline: 0;
+    font-family: var(--font-family);
+  }
+}
+
+::placeholder {
+  font-family: var(--font-family);
+}
